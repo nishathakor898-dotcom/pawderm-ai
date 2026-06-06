@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing | PawDerm AI</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23091614'/%3E%3Cpath fill='%23fff7e8' d='M18 35c0-9 7-16 14-16s14 7 14 16c0 8-6 13-14 13s-14-5-14-13Z'/%3E%3Ccircle cx='23' cy='21' r='6' fill='%23f6b84b'/%3E%3Ccircle cx='41' cy='21' r='6' fill='%23f6b84b'/%3E%3Ccircle cx='15' cy='31' r='5' fill='%23ef7b56'/%3E%3Ccircle cx='49' cy='31' r='5' fill='%2374d6c0'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="vendor/lucide.min.js" defer></script>
+    <script type="module" src="content.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><i data-lucide="stethoscope"></i></span>
+        <span><strong data-content="brand.name">PawDerm AI</strong><small data-content="brand.tagline">Dog and cat skin notes</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="docs.html" data-content="nav.docs">Docs</a>
+        <a href="pricing.html" data-content="nav.pricing">Pricing</a>
+        <a href="blog.html" data-content="nav.blog">Blog</a>
+        <a href="contact.html" data-content="nav.contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" type="button" id="themeToggle" aria-label="Toggle color theme"><i data-lucide="moon"></i></button>
+        <a class="text-button" href="login.html" data-content="nav.login">Log In</a>
+        <a class="primary-button small" href="contact.html"><i data-lucide="calendar-check"></i><span data-content="nav.demo">Get a Demo</span></a>
+      </div>
+    </header>
+
+    <main class="content-page">
+      <section class="page-hero">
+        <p class="eyebrow" data-content="pricing.eyebrow">Pricing</p>
+        <h1 data-content="pricing.title">Simple plans for households and clinics.</h1>
+        <p data-content="pricing.body">Use PawDerm for quick case notes at home, or shape it into a calmer intake flow for a clinic team.</p>
+      </section>
+
+      <section class="pricing-grid page-pricing">
+        <article class="price-card">
+          <p class="eyebrow" data-content="pricing.ownerName">Pet Owner</p>
+          <h3 data-content="pricing.ownerPrice">$9/mo</h3>
+          <p data-content="pricing.ownerBody">For one household tracking occasional skin concerns.</p>
+          <ul>
+            <li data-content="pricing.ownerFeatureOne">Skin concern case notes</li>
+            <li data-content="pricing.ownerFeatureTwo">Vet handoff report export</li>
+            <li data-content="pricing.ownerFeatureThree">Case history on device</li>
+          </ul>
+          <a class="ghost-button" href="contact.html">Choose Owner</a>
+        </article>
+        <article class="price-card featured">
+          <p class="eyebrow" data-content="pricing.proName">Pro Owner</p>
+          <h3 data-content="pricing.proPrice">$29/mo</h3>
+          <p data-content="pricing.proBody">For multi-pet homes, breeders, fosters, and frequent follow-ups.</p>
+          <ul>
+            <li data-content="pricing.proFeatureOne">Multi-pet case tracking concept</li>
+            <li data-content="pricing.proFeatureTwo">Photo quality guidance</li>
+            <li data-content="pricing.proFeatureThree">Priority report templates</li>
+          </ul>
+          <a class="primary-button" href="contact.html">Start Pro</a>
+        </article>
+        <article class="price-card">
+          <p class="eyebrow" data-content="pricing.clinicName">Clinic</p>
+          <h3 data-content="pricing.clinicPrice">Custom</h3>
+          <p data-content="pricing.clinicBody">For teams that want better pre-visit skin concern intake.</p>
+          <ul>
+            <li data-content="pricing.clinicFeatureOne">Clinic queue concept</li>
+            <li data-content="pricing.clinicFeatureTwo">Staff review fields</li>
+            <li data-content="pricing.clinicFeatureThree">Workflow and demo planning</li>
+          </ul>
+          <a class="ghost-button" href="contact.html">Get Clinic Demo</a>
+        </article>
+      </section>
+
+      <section class="detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Compare</p>
+          <h2>What each plan is built for.</h2>
+        </div>
+        <div class="comparison-table">
+          <div><strong>Owner scans</strong><span>Owner: included</span><span>Pro: included</span><span>Clinic: custom intake</span></div>
+          <div><strong>Reports</strong><span>Text export</span><span>Priority templates</span><span>Clinic handoff format</span></div>
+          <div><strong>Best fit</strong><span>One household</span><span>Multi-pet homes</span><span>Vet teams and partners</span></div>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2 data-content="pricing.faqTitle">Pricing FAQs</h2>
+        </div>
+        <div class="faq-grid">
+          <article><h3 data-content="pricing.faqOneQuestion">Is PawDerm AI a diagnosis tool?</h3><p data-content="pricing.faqOneAnswer">No. PawDerm lists possible categories and red flags so owners and clinics can communicate more clearly.</p></article>
+          <article><h3 data-content="pricing.faqTwoQuestion">Can clinics use this before appointments?</h3><p data-content="pricing.faqTwoAnswer">Yes. The clinic version is meant for structured pre-visit intake, not diagnosis automation.</p></article>
+          <article><h3 data-content="pricing.faqThreeQuestion">Do these plans include real veterinary care?</h3><p data-content="pricing.faqThreeAnswer">No. These plans cover the software. Veterinary diagnosis, treatment, and prescribing remain with licensed professionals.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

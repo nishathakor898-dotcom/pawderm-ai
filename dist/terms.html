@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms | PawDerm AI</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23091614'/%3E%3Cpath fill='%23fff7e8' d='M18 35c0-9 7-16 14-16s14 7 14 16c0 8-6 13-14 13s-14-5-14-13Z'/%3E%3Ccircle cx='23' cy='21' r='6' fill='%23f6b84b'/%3E%3Ccircle cx='41' cy='21' r='6' fill='%23f6b84b'/%3E%3Ccircle cx='15' cy='31' r='5' fill='%23ef7b56'/%3E%3Ccircle cx='49' cy='31' r='5' fill='%2374d6c0'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="vendor/lucide.min.js" defer></script>
+    <script type="module" src="content.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i data-lucide="stethoscope"></i></span><span><strong data-content="brand.name">PawDerm AI</strong><small data-content="brand.tagline">Dog and cat skin notes</small></span></a>
+      <nav class="nav-links" aria-label="Sections"><a href="docs.html" data-content="nav.docs">Docs</a><a href="pricing.html" data-content="nav.pricing">Pricing</a><a href="blog.html" data-content="nav.blog">Blog</a><a href="contact.html" data-content="nav.contact">Contact</a></nav>
+      <div class="nav-actions"><button class="icon-button" type="button" id="themeToggle" aria-label="Toggle color theme"><i data-lucide="moon"></i></button><a class="text-button" href="login.html" data-content="nav.login">Log In</a><a class="primary-button small" href="contact.html"><i data-lucide="calendar-check"></i><span data-content="nav.demo">Get a Demo</span></a></div>
+    </header>
+    <main class="content-page legal-page">
+      <section class="page-hero"><p class="eyebrow" data-content="terms.eyebrow">Terms and Conditions</p><h1 data-content="terms.title">Terms for using PawDerm AI.</h1><p data-content="terms.intro">These terms explain that PawDerm AI is educational intake support and not a veterinary medical service.</p></section>
+      <section class="article-stack">
+        <article><h2 data-content="terms.sectionOneTitle">No veterinary diagnosis</h2><p data-content="terms.sectionOneBody">PawDerm AI can organize owner-provided photos and symptoms into possible categories, but it cannot diagnose, treat, prescribe, or replace a licensed veterinarian.</p></article>
+        <article><h2 data-content="terms.sectionTwoTitle">User responsibility</h2><p data-content="terms.sectionTwoBody">Users are responsible for contacting a veterinarian when symptoms are serious, worsening, or unclear. Emergency signs should not wait for software output.</p></article>
+        <article><h2 data-content="terms.sectionThreeTitle">Prototype status</h2><p data-content="terms.sectionThreeBody">This site is a demonstration product. Login, demo, and contact forms may be visual unless connected to production services.</p></article>
+      </section>
+    </main>
+    <footer class="site-footer"></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

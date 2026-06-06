@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | PawDerm AI</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23091614'/%3E%3Cpath fill='%23fff7e8' d='M18 35c0-9 7-16 14-16s14 7 14 16c0 8-6 13-14 13s-14-5-14-13Z'/%3E%3Ccircle cx='23' cy='21' r='6' fill='%23f6b84b'/%3E%3Ccircle cx='41' cy='21' r='6' fill='%23f6b84b'/%3E%3Ccircle cx='15' cy='31' r='5' fill='%23ef7b56'/%3E%3Ccircle cx='49' cy='31' r='5' fill='%2374d6c0'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="vendor/lucide.min.js" defer></script>
+    <script type="module" src="content.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i data-lucide="stethoscope"></i></span><span><strong data-content="brand.name">PawDerm AI</strong><small data-content="brand.tagline">Dog and cat skin notes</small></span></a>
+      <nav class="nav-links" aria-label="Sections"><a href="docs.html" data-content="nav.docs">Docs</a><a href="pricing.html" data-content="nav.pricing">Pricing</a><a href="blog.html" data-content="nav.blog">Blog</a><a href="contact.html" data-content="nav.contact">Contact</a></nav>
+      <div class="nav-actions"><button class="icon-button" type="button" id="themeToggle" aria-label="Toggle color theme"><i data-lucide="moon"></i></button><a class="text-button" href="login.html" data-content="nav.login">Log In</a><a class="primary-button small" href="contact.html"><i data-lucide="calendar-check"></i><span data-content="nav.demo">Get a Demo</span></a></div>
+    </header>
+    <main class="content-page">
+      <section class="page-hero">
+        <p class="eyebrow" data-content="blog.eyebrow">News and Blog</p>
+        <h1 data-content="blog.title">Short guides for better vet handoffs.</h1>
+        <p data-content="blog.body">Share practical guidance for pet owners and veterinary teams before a visit becomes a guessing game.</p>
+      </section>
+      <section class="article-stack">
+        <article><span>Photo guide</span><h2 data-content="blog.articleOneTitle">How to photograph a skin concern for a vet visit</h2><p data-content="blog.articleOneBody">Use daylight, one close-up, one wider body-area image, and one angle from the side. Repeat photos from the same distance when tracking change.</p><p>Good photos do not diagnose a condition, but they help a veterinary team compare size, texture, moisture, color, and spread. Add notes about grooming, new foods, flea prevention, park visits, and when the pet started scratching or licking.</p></article>
+        <article><span>Safety</span><h2 data-content="blog.articleTwoTitle">Why possible matches are safer than instant diagnosis</h2><p data-content="blog.articleTwoBody">Many skin conditions can look similar. Safer software organizes context and urgency, then points toward professional care.</p><p>Skin irritation, fungal-looking patches, parasite irritation, allergy signs, and wounds can overlap visually. PawDerm should describe concern categories and escalation signals, not claim certainty.</p></article>
+        <article><span>Clinic handoff</span><h2 data-content="blog.articleThreeTitle">Designing a calmer handoff between owners and clinics</h2><p data-content="blog.articleThreeBody">Structured intake reduces vague calls, captures owner observations, and gives the clinic team a clearer starting point.</p><p>A short report can help staff understand body area, duration, symptoms, urgent flags, and owner notes before the appointment or call-back.</p></article>
+      </section>
+    </main>
+    <footer class="site-footer"></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
